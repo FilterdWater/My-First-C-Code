@@ -1,20 +1,18 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main()
 {
+    bool isOnline = false;
 
-    // This is my first program in C! :)
-
-    /*
-    This
-    is
-    also
-    a
-    comment
-    */
-
-    printf("I like pizza!\n");
-    printf("It's really good!");
+    if (isOnline)
+    {
+        printf("Your are online");
+    }
+    else
+    {
+        printf("You are OFFLINE");
+    }
 
     return 0;
 }
